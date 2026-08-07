@@ -4,13 +4,13 @@ This project provides a comprehensive analysis of the sales data for the Maven R
 This project analyses the coffee shop sales data of maven roaster coffee shop with the aim of structuring the data set, identifying sales trend, product performance, and customer purchasing pattern. The tools used in this project includes Microsoft excel for data cleaning , data validation and  building of interactive dashboard, pivot table and pivot chart for visualization. this project demonstrates how data analytics can support business decision making.  
 
 # REPOSITORY STRUCTURE
-- DATA
+- DOCUMENTATION
 
 - EXCEL
 
 - IMAGES
 
-- REPORT
+- DATA
 
 - README.md
 
