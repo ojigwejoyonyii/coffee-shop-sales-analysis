@@ -208,3 +208,67 @@ pivot table on each summary sheet, and a duplicate, formatted set reused on the 
 
 *Figure 4 — Revenue by product category, reconstructed from the "Revenue by each category" pivot table*
 
+---
+
+## 🖥️ Interactive Dashboard Assembly
+
+The `DASHBOARD` sheet consolidates the seven charts onto a single canvas and layers **five slicers** on top, turning static summaries into an interactive, filterable report. The slicers connect to the shared pivot cache, so a single click updates every chart on the dashboard simultaneously.
+
+**Slicer fields:**
+
+- `HourLabel` — filter all visuals to specific hour(s) of the day
+- `DayName` — filter all visuals to specific weekday(s)
+- `Month` — filter all visuals to specific month(s)
+- `ProductCategory` — filter all visuals to specific product category(s)
+- `StoreLocation`  - filters all visuals to specific store location(s)
+  
+---
+
+## 🔍 Findings
+
+Reading the pivot outputs together, the analysis points to the following patterns over the January–June 2023 window:
+
+- **Total revenue** across all three branches was **$698,812.33** from **149,116 transactions**, an average of **$4.69 per line item**.
+- **Coffee** is the dominant category, generating **$269,952.45 (38.6%)** of total revenue, followed by **Tea** at **$196,405.95 (28.1%)**.
+- Revenue grew steadily month over month, from **$81,677.74** in January to **$166,485.88** in June — June alone accounts for **23.8%** of the half-year's total revenue, suggesting seasonal growth, business expansion, or a growing customer base.
+- Trading is heavily concentrated in the morning: the **7–11 AM** window alone accounts for roughly **52%** of daily revenue, with **10 AM** the single busiest hour (**$88,673.39**, 12.7% of total revenue). Trade falls sharply after 6 PM and is minimal by 8 PM.
+- **Monday** is the highest-revenue weekday (**$113,845.83**), closely followed by **Sunday** (**$111,287.46**); **Saturday** is the lowest (**$88,498.67**) — a pattern that runs counter to the common assumption that weekends are busiest for cafés, and is worth verifying against store hours or promotions.
+
+---
+
+## 💡 Recommendations
+
+- **Align staffing with demand:** schedule the strongest coverage for the 7–11 AM window (over half of daily revenue) and consider leaner coverage after 6 PM, when trade drops sharply.
+- **Investigate the weekday pattern:** confirm whether the Monday/Sunday-high, Saturday-low pattern reflects genuine customer behavior,
+ store hours, local footfall (e.g., office workers on weekdays), or a data artefact.
+- **Prioritize Coffee and Tea** (66.7% of revenue combined) in inventory and promotions, while evaluating whether smaller categories (e.g., Packaged Chocolate, Flavours) justify their shelf space and holding cost.
+- **Treat monthly growth as preliminary** and re-examine once a full 12 months of data are available.
+- **Extend data collection** to a full calendar year (and ideally multiple years) to enable genuine seasonal comparison.
+- **Document currency explicitly** rather than leaving it to be inferred from store location.
+
+---
+
+## ⚠️ Limitations
+
+| Limitation | Implication |
+|---|---|
+| Only six months of data (Jan–Jun 2023) | Findings on monthly growth cannot be confirmed as seasonal or annual trends; a second half of the year, or a prior year, is needed for comparison. |
+| No cost or margin data | The analysis measures revenue only; it cannot say which categories or products are most profitable, only which sell the most. |
+
+---
+
+## ✅ Conclusion
+
+This documentation set out to reconstruct, explain, and evaluate the analytical workflow behind the coffee shop sales workbook — from the raw, 149,116-row point-of-sale transaction log through to the finished interactive dashboard.
+
+Taken as a whole, the project demonstrates a sound, end-to-end spreadsheet analytics workflow: the source data required no cleaning in the traditional sense (no nulls, duplicates, or invalid values were found), but was usefully enriched with formula-driven weekday, month, hour, and revenue fields. Those fields were then condensed into seven pivot summaries and 
+fourteen matching charts, and finally consolidated into a single slicer-driven dashboard for interactive exploration.
+
+---
+
+### 🛠️ Tools Used
+
+- Microsoft Excel
+- Pivot Tables
+- Pivot Charts
+- Interactive Dashboard
