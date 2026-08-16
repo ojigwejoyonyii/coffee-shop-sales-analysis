@@ -37,7 +37,7 @@ An interactive Excel dashboard was developed to monitor key performance indicato
 
 # 💡 KEY INSIGHTS
 
-1. Total revenue across all three branches for the period was $698,812.33 from 149,116 transactions, an average of $4.69 per line item.
+1. Total revenue across all three branches for the period was $698,812.33 from 149,116 transactions, an average revenue of $4.69 per transaction.
  
 2.	Coffee is the dominant category, generating $269,952.45 (38.6% of total revenue), followed by Tea at $196,405.95 (28.1%).
 	
@@ -73,4 +73,4 @@ README.md
 
 # 📝 CONCLUSION
 
-This project demonstrates the use of Microsoft Excel to transform raw data into actionable business insights through data preparation, visualization and interactive dashboard development. 
+This project demonstrates the use of Microsoft Excel to transform raw data into actionable business insights through data preparation, visualization and interactive dashboard development. The findings provides a data driven basis for understanding sales performance and supporting operational decision making.
