@@ -228,7 +228,7 @@ The `DASHBOARD` sheet consolidates the seven charts onto a single canvas and lay
 
 Reading the pivot outputs together, the analysis points to the following patterns over the January–June 2023 window:
 
-- **Total revenue** across all three branches was **$698,812.33** from **149,116 transactions**, an average of **$4.69 per line item**.
+- **Total revenue** across all three branches was **$698,812.33** from **149,116 transactions**, an average revenue of **$4.69 per transaction**.
 - **Coffee** is the dominant category, generating **$269,952.45 (38.6%)** of total revenue, followed by **Tea** at **$196,405.95 (28.1%)**.
 - Revenue grew steadily month over month, from **$81,677.74** in January to **$166,485.88** in June — June alone accounts for **23.8%** of the half-year's total revenue, suggesting seasonal growth, business expansion, or a growing customer base.
 - Trading is heavily concentrated in the morning: the **7–11 AM** window alone accounts for roughly **52%** of daily revenue, with **10 AM** the single busiest hour (**$88,673.39**, 12.7% of total revenue). Trade falls sharply after 6 PM and is minimal by 8 PM.
