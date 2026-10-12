@@ -33,7 +33,8 @@ The raw dataset was cleaned and prepared using Excel. The process included check
 
 An interactive Excel dashboard was developed to monitor key performance indicators and provide a visual overview of revenue generated, number of transactions carried out, product performances and sales performance.
 
-<img width="732" height="460" alt="image" src="https://github.com/user-attachments/assets/cb0bc69f-15a4-47b7-a3fa-8f60e463e56a" />
+<<img width="701" height="449" alt="image" src="https://github.com/user-attachments/assets/1cae0fd2-a73e-46a3-b8ed-47e6d4c67bf1" />
+>
 
 # 💡 KEY INSIGHTS
 
