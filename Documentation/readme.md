@@ -1,8 +1,8 @@
  # ☕ Coffee Shop Sales Analysis
 
-> **Data period:** 1 January – 30 June 2023 | **Tool:** Microsoft Excel | **Prepared by:** Ojigwe Joy Onyinye
+> **Data period:** **1 January – 30 June 2023** | **Tool:** **Microsoft Excel** | **Prepared by:** **Ojigwe Joy Onyinye**
 
-
+---
 
 ![Dashboard](https://github.com/ojigwejoyonyii/coffee-shop-sales-analysis/blob/main/Image/coffe_shop_sales_analysis_dashboard.PNG)
 
