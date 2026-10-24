@@ -2,7 +2,11 @@
 
 > **Data period:** 1 January – 30 June 2023 | **Tool:** Microsoft Excel | **Prepared by:** Ojigwe Joy Onyinye
 
-![Dashboard](images/dashboard.png)  
+
+
+![Dashboard](https://github.com/ojigwejoyonyii/coffee-shop-sales-analysis/blob/main/Image/coffe_shop_sales_analysis_dashboard.PNG)
+
+
 
 ## Table of Contents
 
@@ -170,7 +174,8 @@ Revenue is spread almost evenly across the three stores. Hell's Kitchen leads, f
 - Lower Manhattan has the fewest transactions but sells the most units and has the highest average transaction value, so its customers buy more per visit.
 - Product mix differs by store. Hell's Kitchen sells far more coffee beans ($18,635 versus about $10,200–$11,200 elsewhere) but far fewer branded items ($1,942 versus $5,457–$6,208). Astoria leads in tea and drinking chocolate, and Lower Manhattan leads in bakery and flavours.
 
-![Analysis of coffee shop store locations performance](images/store-location-analysis.png)
+![Analysis of coffee shop store locations performance](https://github.com/ojigwejoyonyii/coffee-shop-sales-analysis/blob/main/Image/Revenue_by_stores.PNG)
+
 *Image 1: Analysis of coffee shop store locations performance.*
 
 ### 10.2 Weekday and Hourly Performance Analysis
@@ -191,7 +196,8 @@ The dataset has no salesperson or employee field, so individual performance cann
 
 Sales are very evenly distributed across the week. Monday is the strongest day and Saturday the weakest, a difference of only about 4.9%.
 
-![Analysis of weekday performance](images/weekday-analysis.png)
+![Analysis of weekday performance](https://github.com/ojigwejoyonyii/coffee-shop-sales-analysis/blob/main/Image/Revenue_by_weekday.PNG)
+
 *Image 2: Analysis of weekday performance.*
 
 **Revenue by hour of the day**
@@ -209,7 +215,8 @@ Sales are very evenly distributed across the week. Monday is the strongest day a
 
 The business has a strong morning peak. The three hours from 8 AM to 10 AM bring in 36.7% of all revenue, and 7 AM to 10 AM brings in 45.8%. Revenue then halves at 11 AM and stays flat at about $40,000–$42,000 per hour through to 5 PM, before tapering off in the evening. The 8 PM hour contributes just 0.42% of revenue.
 
-![Analysis of performance of hours of the day](images/hourly-analysis.png)
+![Analysis of performance of hours of the day](https://github.com/ojigwejoyonyii/coffee-shop-sales-analysis/blob/main/Image/Revenue_on_hourly_basis.PNG)
+
 *Image 3: Analysis of performance of hours of the day.*
 
 ### 10.3 Product-Type Analysis
@@ -230,7 +237,8 @@ The business has a strong morning peak. The three hours from 8 AM to 10 AM bring
 
 Coffee and tea together generate 66.7% of revenue. Adding bakery and drinking chocolate brings the four core categories to 88.9%. The remaining five categories contribute 11.1% combined.
 
-![Analysis of product category performance](images/product-category-analysis.png)
+![Analysis of product category performance](https://github.com/ojigwejoyonyii/coffee-shop-sales-analysis/blob/main/Image/Revenue_by_product_category.PNG)
+
 *Image 4: Analysis of product category performance.*
 
 **Top product types**
@@ -250,7 +258,8 @@ Coffee and tea together generate 66.7% of revenue. Adding bakery and drinking ch
 
 The top four product types alone account for 44.5% of revenue. The best-selling individual item (by product detail) is *Sustainably Grown Organic Lg* at $21,151.75, followed closely by *Dark chocolate Lg* ($21,006.00) and *Latte Rg* ($19,112.25). The lowest-earning product types are Green beans ($1,340.00), Green tea ($1,470.75) and Organic Chocolate ($1,679.60).
 
-![Analysis of product types performance](images/product-type-analysis.png)
+![Analysis of product types performance](https://github.com/ojigwejoyonyii/coffee-shop-sales-analysis/blob/main/Image/Revenue_by_product_type.PNG)
+
 *Image 5: Analysis of product types performance.*
 
 ### 10.4 Yearly Sales Analysis
@@ -278,7 +287,8 @@ Second-quarter revenue is 72.3% higher than the first quarter. Average daily rev
 
 Revenue rose in every month except February, and June revenue is 103.8% higher than January's. February's apparent dip is largely explained by its length: it has 28 days against January's 31. On a per-day basis February ($2,719) was slightly above January ($2,635). The growth is broad-based: all three stores grew in each month from March to June, and Hell's Kitchen led in every month.
 
-![Analysis of monthly performance](images/monthly-analysis.png)
+![Analysis of monthly performance](https://github.com/ojigwejoyonyii/coffee-shop-sales-analysis/blob/main/Image/Revenue_by_month.PNG)
+
 *Image 6: Analysis of monthly performance.*
 
 ## 11. Dashboard Development
@@ -301,7 +311,8 @@ The Dashboard worksheet brings the analysis together in a single interactive vie
 
 **Usage example:** selecting "Hell's Kitchen" in the Store Location slicer and "Coffee" in the Product Category slicer shows that store's coffee performance by month, weekday and hour.
 
-![Coffee shop sales performance dashboard](images/dashboard.png)
+![Coffee shop sales performance dashboard](https://github.com/ojigwejoyonyii/coffee-shop-sales-analysis/blob/main/Image/coffe_shop_sales_analysis_dashboard.PNG)
+
 *Image 7: Coffee shop sales performance dashboard.*
 
 ## 12. Key Findings and Insights
