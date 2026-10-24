@@ -4,6 +4,52 @@
 
 ---
 
+## Table of Contents
+
+- [1. 📌 Project Overview](#1--project-overview)
+ 
+- [2. 🎯 Business Problem](#2--business-problem)
+  
+- [3. 🏆 Project Objectives](#3--project-objectives)
+  
+- [4. 🔍 Project Scope](#4-project-scope)
+  
+- [5. 📂 Dataset Overview](#5--dataset-overview)
+  
+- [6. 🧹 Data Preparation, Cleaning and Validation](#️⃣6--data-preparation-cleaning-and-validation)
+  
+  - [6.1 Exploratory checks](#61-exploratory-checks)
+    
+  - [6.2 Cleaning steps](#62-cleaning-steps)
+   
+  - [6.3 Calculated columns](#63-calculated-columns)
+   
+  - [6.4 Validation](#64-validation)
+    
+- [7. ⚙️ Analytical Methodology](#7--analytical-methodology)
+ 
+- [8. 📊 Key Performance Indicators](#8--key-performance-indicators)
+- 
+- [9. 📈 Analysis Performed](#️⃣9--analysis-performed)
+ 
+- [10. 📊 Dashboard Development](#10--dashboard-development)
+  
+- [11. 💡 Key Findings and Insights](#11--key-findings-and-insights)
+  
+- [12. 🚀 Recommendations](#12--recommendations)
+  
+- [13. ⚠️ Project Limitations](#13--project-limitations)
+  
+- [14. 🛠️ Tools](#14--tools)
+  
+- [15. 🔄 Project Workflow](#15--project-workflow)
+  
+- [16. 📑 Workbook Structure](#16--workbook-structure)
+ 
+- [17. ✅ Conclusion](#17--conclusion)
+
+---
+
  ## 1. 📌 Project Overview
 
 This project analyses point-of-sale transaction data from a coffee shop business operating three store locations: **Astoria**, **Hell's Kitchen** and **Lower Manhattan**. The dataset covers **149,116 transactions** recorded over the six months from January to June 2023, generating total revenue of **$698,812.33** from **214,470 units** sold.
