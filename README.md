@@ -192,8 +192,9 @@ The Dashboard worksheet brings the analysis together in a single interactive vie
 
 **Usage example:** selecting "Hell's Kitchen" in the Store Location slicer and "Coffee" in the Product Category slicer shows that store's coffee performance by month, weekday and hour.
 
-![Coffee shop sales performance dashboard](images/dashboard.png)
-*Image 7: Coffee shop sales performance dashboard.*
+![Coffee shop sales performance dashboard](https://github.com/ojigwejoyonyii/coffee-shop-sales-analysis/blob/main/Image/coffe_shop_sales_analysis_dashboard.PNG)
+
+---
 
 ## 11. 💡 Key Findings and Insights
 
@@ -206,6 +207,8 @@ The Dashboard worksheet brings the analysis together in a single interactive vie
 - **Very weak late-evening trade:** the 8 PM hour earns only 0.42% of revenue, and 6 AM earns just 3.1%.
 - **The trading week is balanced:** weekday revenue varies by less than 5%, with Monday strongest and Saturday weakest.
 - **A long tail of small categories:** Branded, Loose Tea, Flavours and Packaged Chocolate together contribute 5.4% of revenue.
+
+---
 
 ## 12. 🚀 Recommendations
 
@@ -222,6 +225,8 @@ The Dashboard worksheet brings the analysis together in a single interactive vie
 9. **Plan capacity for continued growth,** but treat the trend with caution until a full year of data confirms how much of it is seasonal.
 10. **Extend the dataset** to a full year, and add cost, discount and staffing data to move from revenue analysis to profitability analysis.
 
+---
+
 ## 13. ⚠️ Project Limitations
 
 - **Short time window:** Only six months (January–June 2023) are included. Seasonality, year-on-year growth and the cause of the January–June increase cannot be established.
@@ -231,6 +236,8 @@ The Dashboard worksheet brings the analysis together in a single interactive vie
 - **Currency assumed:** Amounts are formatted as currency in the workbook, and are presented here in US dollars ($).
 - **Descriptive analysis only:** The work identifies patterns but does not test statistical significance or forecast future sales. Differences between stores in particular are small.
 - **Manual workflow:** Cleaning and calculated columns are performed in Excel and must be refreshed manually when new data is added.
+
+---
 
 ## 14. 🛠️ Tools
 
@@ -245,6 +252,8 @@ The Dashboard worksheet brings the analysis together in a single interactive vie
 | Slicers | Interactive filtering across the dashboard |
 | Microsoft Word | Project documentation |
 
+---
+
 ## 15. 🔄 Project Workflow
 
 1. **Understand the data:** Open the raw file, then count rows and columns and identify the period and categories covered.
@@ -257,6 +266,8 @@ The Dashboard worksheet brings the analysis together in a single interactive vie
 8. **Assemble:** Place the KPI cards, charts and slicers on the Dashboard sheet and connect the slicers to all PivotTables.
 9. **Interpret:** Draw out the findings and recommendations.
 10. **Document:** Record the method, results and limitations (this document).
+
+---
 
 ## 16. 📑 Workbook Structure
 
@@ -275,6 +286,8 @@ The workbook (`coffe_shop_sales_analysis.xlsb`) contains 11 worksheets:
 | 9 | Revenue by store location | PivotTable and pie chart of store revenue |
 | 10 | Revenue by product type | PivotTable and bar chart of product type revenue |
 | 11 | Dashboard | KPI cards, six charts and six slicers |
+
+---
 
 ## 17. ✅ Conclusion
 
