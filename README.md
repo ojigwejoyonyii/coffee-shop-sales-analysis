@@ -26,10 +26,10 @@
    
   - [6.4 Validation](#64-validation)
     
-- [7. ⚙️ Analytical Methodology](#7--analytical-methodology)
+  - [7. ⚙️ Analytical Methodology](#7-analytical-methodology)
  
 - [8. 📊 Key Performance Indicators](#8--key-performance-indicators)
-- 
+  
 - [9. 📈 Analysis Performed](#️⃣9--analysis-performed)
  
 - [10. 📊 Dashboard Development](#10--dashboard-development)
