@@ -25,22 +25,22 @@
   - [6.3 Calculated columns](#63-calculated-columns)
    
   - [6.4 Validation](#64-validation)
-    
-  - [7. ⚙️ Analytical Methodology](#7-analytical-methodology)
+
+- [7. ⚙️ Analytical Methodology](#sec-7)
  
 - [8. 📊 Key Performance Indicators](#8--key-performance-indicators)
   
-- [9. 📈 Analysis Performed](#️⃣9--analysis-performed)
- 
+- [9. 📈 Analysis Performed](#sec-9)
+  
 - [10. 📊 Dashboard Development](#10--dashboard-development)
   
 - [11. 💡 Key Findings and Insights](#11--key-findings-and-insights)
   
 - [12. 🚀 Recommendations](#12--recommendations)
   
-- [13. ⚠️ Project Limitations](#13--project-limitations)
+- [13. ⚠️ Project Limitations](#sec-13)
   
-- [14. 🛠️ Tools](#14--tools)
+- [14. 🛠️ Tools](#sec-14)
   
 - [15. 🔄 Project Workflow](#15--project-workflow)
   
@@ -156,6 +156,9 @@ After cleaning, the following checks were run against the final data:
 - Revenue equals `UnitPrice × TransactionQty` on every row (maximum difference: $0.00).
 - Every PivotTable (month, weekday, hour, category, store location and product type) reconciles to the same grand total of **$698,812.33**.
 
+  ---
+  
+<a name="sec-7"></a>
 ## 7. ⚙️ Analytical Methodology
 
 The analysis is descriptive and uses a consistent approach across every dimension:
@@ -184,6 +187,7 @@ The analysis is descriptive and uses a consistent approach across every dimensio
 
 ---
 
+<a name="sec-9"></a>
 ## 9. 📈 Analysis Performed
 
 | Analysis Area | Category / Period | Key Results | Key Insight |
@@ -273,6 +277,7 @@ The Dashboard worksheet brings the analysis together in a single interactive vie
 
 ---
 
+<a name="sec-13"></a>
 ## 13. ⚠️ Project Limitations
 
 - **Short time window:** Only six months (January–June 2023) are included. Seasonality, year-on-year growth and the cause of the January–June increase cannot be established.
@@ -285,6 +290,7 @@ The Dashboard worksheet brings the analysis together in a single interactive vie
 
 ---
 
+<a name="sec-14"></a>
 ## 14. 🛠️ Tools
 
 | Tool or feature | Use in the project |
